@@ -109,6 +109,10 @@
         align-items: center;
     }
 
+    .discription{
+        text-align: left;
+    }
+
     .section1{
         display: flex;
         align-items: center;

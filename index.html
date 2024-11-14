@@ -41,7 +41,7 @@
                 </div>
 
                 <div class="btn-group">
-                    <a href="https://docs.google.com/document/d/1n4AlKjswOMAzU0EAwRYBZZcPxpwE_ERQRgfyFxKRUng/edit?usp=sharing"><button class="btn">Download CV <i class="fa-solid fa-download"></i></button></a>
+                    <a href="#"><button class="btn">Download CV <i class="fa-solid fa-download"></i></button></a>
                     <!-- <button class="btn">Contact</button> -->
                 </div>
 
@@ -64,12 +64,12 @@
             <div class="education">
 
                 <div class="school">
-                    <i class="ri-school-line"></i>
-                    <h3>Scared Heart Convent High School,Nashik</h3>
-                    <span><b>Qualification: </b> SSC</span>
-                    <span><b>Aggregate:</b> 92.20%</span>
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h3>SNJB's Late Sau KBJ College of Engineering,Chandwad</h3>
+                    <span><b>Qualification: </b> B.E in Computers</span>
+                    <span><b>CGPA:</b> 9.05</span>
                 </div>
-
+                
                 <div class="school">
                     <i class="ri-graduation-cap-line"></i>
                     <h3>Matoshri Junior College,Eklahara</h3>
@@ -78,10 +78,10 @@
                 </div>
 
                 <div class="school">
-                    <i class="fa-solid fa-graduation-cap"></i>
-                    <h3>SNJB's Late Sau KBJ College of Engineering,Chandwad</h3>
-                    <span><b>Qualification: </b> Under-Graduation</span>
-                    <span><b>CGPA:</b> 9.05</span>
+                    <i class="ri-school-line"></i>
+                    <h3>Scared Heart Convent High School,Nashik</h3>
+                    <span><b>Qualification: </b> SSC</span>
+                    <span><b>Aggregate:</b> 92.20%</span>
                 </div>
             
             </div>
@@ -196,15 +196,31 @@
     </section>
 
     <section class="contact" id="contact">
-        <div class="input-box">
-            <h2 class="section-title">Contact me</h2>
+        <h2 class="section-title">Contact Me </h2>
 
-            <div class="input">
-                <input type="text" placeholder="abc@gmail.com">
-                <i class="fa-solid fa-envelope"></i>
+        <div class="infomain">
+            <form class="info" method="POST" id="form">
+                
+                <div class="in_name">
+                    <div>
+                        <label for="Name">Your Name:</label>
+                        <input type="text" placeholder="Your Name" required class="in_fields">
+                    </div>
+                    <div>
+                        <label for="Email">Your E-Mail:</label>
+                        <input type="email" placeholder="xyz@gmail.com" required class="in_fields">
+                    </div>
+                </div>
+
+                <div class="in_mes">
+                    <span class="mes">Message:</span> 
+                    <textarea name="Meassage" placeholder="Type Here,What you want to Say "></textarea>
+                </div>
+            </form>
+
+            <div >
+                <button class="contact_btn" id="cbtn" type="submit"> Send Message</button>
             </div>
-
-            <div class="btn">Submit</div>
         </div>
     </section>
 
